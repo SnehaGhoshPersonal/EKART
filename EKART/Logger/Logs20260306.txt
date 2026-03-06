@@ -1,0 +1,78 @@
+2026-03-06 22:51:37.514 +05:30 [INF] User profile is available. Using 'C:\Users\sneha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-06 22:51:42.499 +05:30 [INF] Now listening on: http://localhost:5289
+2026-03-06 22:51:43.326 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-06 22:51:43.326 +05:30 [INF] Hosting environment: Development
+2026-03-06 22:51:43.326 +05:30 [INF] Content root path: C:\Users\sneha\source\repos\EKART\EKART
+2026-03-06 22:51:45.129 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5289/swagger/index.html - null null
+2026-03-06 22:51:47.676 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5289/swagger/index.html - 200 null text/html;charset=utf-8 2778.077ms
+2026-03-06 22:51:47.785 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5289/_vs/browserLink - null null
+2026-03-06 22:51:47.785 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-06 22:51:47.839 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - 200 16495 application/javascript; charset=utf-8 58.2128ms
+2026-03-06 22:51:48.468 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5289/_vs/browserLink - 200 null text/javascript; charset=UTF-8 686.0144ms
+2026-03-06 22:51:49.332 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - null null
+2026-03-06 22:51:49.480 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 148.9038ms
+2026-03-06 22:53:28.392 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5289/api/Login/Login - application/json 48
+2026-03-06 22:53:28.403 +05:30 [INF] CORS policy execution failed.
+2026-03-06 22:53:28.404 +05:30 [INF] Request origin http://localhost:5289 does not have permission to access the resource.
+2026-03-06 22:53:28.426 +05:30 [INF] Request started: POST /api/Login/Login at "2026-03-06T17:23:28.4237409Z"
+2026-03-06 22:53:28.433 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-03-06 22:53:28.627 +05:30 [INF] Executing endpoint 'EKART.Controllers.LoginController.Login (EKART)'
+2026-03-06 22:53:28.727 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EKART.Models.LoginResponse]] Login(EKART.Models.LoginRequest) on controller EKART.Controllers.LoginController (EKART).
+2026-03-06 22:56:11.903 +05:30 [INF] User profile is available. Using 'C:\Users\sneha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-06 22:56:12.923 +05:30 [INF] Now listening on: http://localhost:5289
+2026-03-06 22:56:13.235 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-06 22:56:13.235 +05:30 [INF] Hosting environment: Development
+2026-03-06 22:56:13.236 +05:30 [INF] Content root path: C:\Users\sneha\source\repos\EKART\EKART
+2026-03-06 22:56:14.183 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5289/swagger/index.html - null null
+2026-03-06 22:56:15.250 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5289/swagger/index.html - 200 null text/html;charset=utf-8 1101.1718ms
+2026-03-06 22:56:15.303 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5289/_vs/browserLink - null null
+2026-03-06 22:56:15.303 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-06 22:56:15.362 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - 200 16495 application/javascript; charset=utf-8 61.3091ms
+2026-03-06 22:56:15.480 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5289/_vs/browserLink - 200 null text/javascript; charset=UTF-8 178.2202ms
+2026-03-06 22:56:15.726 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - null null
+2026-03-06 22:56:15.837 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 110.5532ms
+2026-03-06 22:56:49.454 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5289/api/Login/Login - application/json 49
+2026-03-06 22:56:49.465 +05:30 [INF] CORS policy execution failed.
+2026-03-06 22:56:49.465 +05:30 [INF] Request origin http://localhost:5289 does not have permission to access the resource.
+2026-03-06 22:56:49.477 +05:30 [INF] Request started: POST /api/Login/Login at "2026-03-06T17:26:49.4748366Z"
+2026-03-06 22:56:49.484 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-03-06 22:56:49.673 +05:30 [INF] Executing endpoint 'EKART.Controllers.LoginController.Login (EKART)'
+2026-03-06 22:56:49.744 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EKART.Models.LoginResponse]] Login(EKART.Models.LoginRequest) on controller EKART.Controllers.LoginController (EKART).
+2026-03-06 22:56:50.469 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-03-06 22:56:50.527 +05:30 [INF] Executed action EKART.Controllers.LoginController.Login (EKART) in 777.4777ms
+2026-03-06 22:56:50.527 +05:30 [INF] Executed endpoint 'EKART.Controllers.LoginController.Login (EKART)'
+2026-03-06 22:56:50.527 +05:30 [INF] Request finished: POST /api/Login/Login responded 400 in 52 ms
+2026-03-06 22:56:50.530 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5289/api/Login/Login - 400 null application/problem+json; charset=utf-8 1076.5421ms
+2026-03-06 22:57:25.824 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5289/api/Login/Login - application/json 50
+2026-03-06 22:57:25.831 +05:30 [INF] CORS policy execution failed.
+2026-03-06 22:57:25.831 +05:30 [INF] Request origin http://localhost:5289 does not have permission to access the resource.
+2026-03-06 22:57:25.831 +05:30 [INF] Request started: POST /api/Login/Login at "2026-03-06T17:27:25.8318920Z"
+2026-03-06 22:57:25.837 +05:30 [INF] Executing endpoint 'EKART.Controllers.LoginController.Login (EKART)'
+2026-03-06 22:57:25.844 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EKART.Models.LoginResponse]] Login(EKART.Models.LoginRequest) on controller EKART.Controllers.LoginController (EKART).
+2026-03-06 22:57:25.957 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-03-06 22:57:25.960 +05:30 [INF] Executed action EKART.Controllers.LoginController.Login (EKART) in 113.8199ms
+2026-03-06 22:57:25.960 +05:30 [INF] Executed endpoint 'EKART.Controllers.LoginController.Login (EKART)'
+2026-03-06 22:57:25.960 +05:30 [INF] Request finished: POST /api/Login/Login responded 400 in 128 ms
+2026-03-06 22:57:25.960 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5289/api/Login/Login - 400 null application/problem+json; charset=utf-8 137.9583ms
+2026-03-06 22:57:30.098 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5289/api/Login/Login - application/json 50
+2026-03-06 22:57:30.099 +05:30 [INF] CORS policy execution failed.
+2026-03-06 22:57:30.099 +05:30 [INF] Request origin http://localhost:5289 does not have permission to access the resource.
+2026-03-06 22:57:30.099 +05:30 [INF] Request started: POST /api/Login/Login at "2026-03-06T17:27:30.0993648Z"
+2026-03-06 22:57:30.101 +05:30 [INF] Executing endpoint 'EKART.Controllers.LoginController.Login (EKART)'
+2026-03-06 22:57:30.101 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EKART.Models.LoginResponse]] Login(EKART.Models.LoginRequest) on controller EKART.Controllers.LoginController (EKART).
+2026-03-06 22:57:30.106 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-03-06 22:57:30.106 +05:30 [INF] Executed action EKART.Controllers.LoginController.Login (EKART) in 5.2896ms
+2026-03-06 22:57:30.106 +05:30 [INF] Executed endpoint 'EKART.Controllers.LoginController.Login (EKART)'
+2026-03-06 22:57:30.106 +05:30 [INF] Request finished: POST /api/Login/Login responded 400 in 7 ms
+2026-03-06 22:57:30.122 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5289/api/Login/Login - 400 null application/problem+json; charset=utf-8 8.7207ms
+2026-03-06 22:57:41.753 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5289/api/Login/Login - application/json 48
+2026-03-06 22:57:41.754 +05:30 [INF] CORS policy execution failed.
+2026-03-06 22:57:41.755 +05:30 [INF] Request origin http://localhost:5289 does not have permission to access the resource.
+2026-03-06 22:57:41.755 +05:30 [INF] Request started: POST /api/Login/Login at "2026-03-06T17:27:41.7551300Z"
+2026-03-06 22:57:41.755 +05:30 [INF] Executing endpoint 'EKART.Controllers.LoginController.Login (EKART)'
+2026-03-06 22:57:41.755 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EKART.Models.LoginResponse]] Login(EKART.Models.LoginRequest) on controller EKART.Controllers.LoginController (EKART).
+2026-03-06 22:57:44.888 +05:30 [INF] Executing OkObjectResult, writing value of type 'EKART.Models.LoginResponse'.
+2026-03-06 22:57:44.890 +05:30 [INF] Executed action EKART.Controllers.LoginController.Login (EKART) in 3134.5435ms
+2026-03-06 22:57:44.890 +05:30 [INF] Executed endpoint 'EKART.Controllers.LoginController.Login (EKART)'
+2026-03-06 22:57:44.890 +05:30 [INF] Request finished: POST /api/Login/Login responded 200 in 135 ms
+2026-03-06 22:57:44.890 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5289/api/Login/Login - 200 null application/json; charset=utf-8 3137.1191ms
