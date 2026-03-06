@@ -1,14 +1,18 @@
 using System;
 using System.Text;
 using EKART;
+using EKART.Middlewares;
 using EKART.Models;
 using EKART.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+Log.Logger = new LoggerConfiguration().WriteTo.File("Logger/Logs.txt", rollingInterval: RollingInterval.Day).CreateLogger();
+builder.Host.UseSerilog();
 builder.Services.AddDbContext<EKARTContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddCors(options =>
@@ -90,6 +94,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors("AllowAngularClient");
+app.UseMiddleware<CustomLoggerMiddleware>();
 app.UseMiddleware<GlobalException>();
 app.UseHttpsRedirection();
 
